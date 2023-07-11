@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_light">#DCEFED</color>
+    <color name="primary1_light">#DCEFED</color>
     <color name="primary_text_light">#27485e</color>
+    <color name="primary2_light">#1d5b8d</color>
     <color name="secondary_light">#1eab90</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -10,4 +11,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF808080</color>
+    <color name="green">#FF00FF00</color>
 </resources>
