@@ -67,46 +67,48 @@
             android:textColor="@color/primary_text_light"
             android:textSize="30sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout4"
+        <EditText
+            android:id="@+id/plain_text_input1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp">
+            android:layout_marginVertical="10dp"
+            android:autofillHints=""
+            android:background="@drawable/rounded_text"
+            android:hint="@string/input1"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout5"
+        <EditText
+            android:id="@+id/plain_text_input2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp">
+            android:layout_marginVertical="10dp"
+            android:autofillHints=""
+            android:background="@drawable/rounded_text"
+            android:hint="@string/input2"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout6"
+        <EditText
+            android:id="@+id/plain_text_input3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp">
+            android:layout_marginVertical="10dp"
+            android:autofillHints=""
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:background="@drawable/rounded_text"
+            android:hint="@string/input3"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/filledButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="@drawable/rounded_btn"
             android:text="@string/login2"
             android:textColor="@color/white"

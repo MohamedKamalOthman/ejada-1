@@ -4,5 +4,6 @@
     <solid
         android:background="@color/secondary_light"
         android:backgroundTint="@color/secondary_light"
-        android:color="@color/secondary_light" />
+        android:color="@color/secondary_light"
+        android:textColor="@color/white" />
 </shape>

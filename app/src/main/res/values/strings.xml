@@ -3,4 +3,8 @@
     <string name="login1">منارة الصحة</string>
     <string name="login2">تسجيل الدخول</string>
     <string name="main_menu">الرئيسية</string>
+    <string name="input1">رقم الهوية (الزامي)</string>
+    <string name="input2">الملف الطبي (الزامي)</string>
+    <string name="input3">رقم الجوال المسجل بالمدينة</string>
+
 </resources>
